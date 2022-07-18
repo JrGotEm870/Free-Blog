@@ -83,7 +83,7 @@ a:hover:after{
   color: #cfac5b;
 }
 .banner-popup {
-  background: #009579;
+  background: #cfac5b;
 }
 
 .banner__content {
@@ -97,7 +97,6 @@ a:hover:after{
 .banner__text {
   flex-grow: 1;
   line-height: 1.4;
-  font-family: "Quicksand", sans-serif;
 }
 
 .banner__close {
