@@ -83,7 +83,7 @@ a:hover:after{
   color: #cfac5b;
 }
 .banner-popup {
-  background: #cfac5b;
+  background: #cfac5b9f;
 }
 
 .banner__content {
@@ -108,6 +108,15 @@ a:hover:after{
 .banner__text,
 .banner__close > span {
   color: #ffffff;
+}
+.banner__text strong{
+  color: #00060f;
+  font-size: 18px;
+  font-weight: 650;
+}
+.banner__text i{
+  color: #cfac5b;
+  font-size: 12px;
 }
 .banner{
   flex: 1;

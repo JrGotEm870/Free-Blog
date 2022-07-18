@@ -29,7 +29,8 @@
     <div class="banner-popup">
       <div class="banner__content">
         <div class="banner__text">
-          <strong>Quote of the week:</strong> “Everyday that you wake up is a day to start over don’t fumble it with the worries of yesterday ” - JR Whitfield
+          <strong>Quote of the week:</strong> “Everyday that you wake up is a day to start over don’t fumble it with the worries of yesterday ” <br>
+          <i>- JR Whitfield</i>
         </div>
         <button class="banner__close" type="button">
           <span class="material-icons">
@@ -112,12 +113,12 @@
 
   <!--Contact-->
   <section id="contact">
-    <form onsubmit="sendEmail(); reset(); return false;">
+    <form action="https://formspree.io/f/mlezqgon" method="post">
       <h3>Contact Us</h3>
-      <input type="text" id="name" placeholder="Your name" required>
-      <input type="email" id="email" placeholder="Email address" required>
-      <input type="text" id="phone" placeholder="Phone Number" required>
-      <textarea id="message" row="4"placeholder="How can we help you?"></textarea>
+      <input type="text" id="name" placeholder="Your name" required name="name">
+      <input type="email" id="email" placeholder="Email address" required name="email">
+      <input type="text" id="phone" placeholder="Phone Number" required name="phone">
+      <textarea id="message" row="4"placeholder="How can we help you?" name="message"></textarea>
       <button>Submit</button>
     </form>
   </section>
@@ -139,25 +140,7 @@
   this.closest(".banner-popup").style.display = "none";
 });</script>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendEmail(){
-          Email.send({
-              Host : "smtp.gmail.com",
-              Username : "WhitfieldG94@gmail.com",
-              Password : "2030E920240492C0774C7FD3AF8E5170FB15",
-              To : 'empceojr2@gmail.com',
-              From : document.getElementById("email").value,
-              Subject : "New Contact Form Inquiry",
-              Body : "Name: " + document.getElementById("name").value
-                  + "<br> Email: " + document.getElementById("email").value
-                  + "<br> Phone Number: " + document.getElementById("phone").value
-                  + "<br> Message: " + document.getElementById("message").value
-          }).then(
-          message => alert("Message Sent Successfully")
-      );
-    }
-  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     var typed = new Typed(".auto-type",{
