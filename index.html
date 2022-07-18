@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 <title>Freedom of Depression</title>
 </head>
@@ -25,6 +26,17 @@
         </div>
       </div>
     </nav>
+    <div class="banner-popup">
+      <div class="banner__content">
+        <div class="banner__text">
+          <strong>Reminder:</strong> your subscription expires in 22 days. Renew to avoid account suspension.
+        </div>
+        <button class="banner__close" type="button">
+          <span class="material-icons">
+            close
+          </span>
+        </button>
+      </div>
     <div class="banner">
       <div class="container">
         <h1 class="banner-title">
@@ -122,7 +134,9 @@
   </section>
 
 
-
+<script>document.querySelector(".banner__close").addEventListener("click", function () {
+  this.closest(".banner-popup").style.display = "none";
+});</script>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
