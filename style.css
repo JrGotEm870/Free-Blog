@@ -226,12 +226,11 @@ a:hover:after{
   align-items: center;
 }
 .blog-text span{
-  color: #00060f;
+  color: #cfac5b;
   font-size: 0.9rem;
 }
 .blog-text .blog-title{
   font-size: 1.3rem;
-  font-weight: 500;
   margin-top: 12px;
   color: #272727;
   text-decoration: none;
@@ -240,11 +239,14 @@ a:hover:after{
   color: #cfac5b;
   transition: all ease 0.3s;
 }
+.blog-title{
+  font-weight: 650;
+}
 .blog-text p{-webkit-column-rule: ;
   -moz-column-rule: ;
   column-rule: ;
   color: #00060f;
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -259,6 +261,22 @@ a:hover:after{
 .blog-text a:hover{
   color: #cfac5b;
   transition: all ease 0.3s;
+}
+.art-btn{
+  padding: 10px;
+  background: #cfac5b;
+  color: #ffffff;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  width: 130px;
+  margin: 20px auto 0;
+  border-radius: 50px;
+}
+.art-btn a:hover{
+  color: #ffffff;
+  transition: all ease 0.3s;
+  text-decoration: none;
 }
 @media(max-width:1250px){
   .blog-box{
