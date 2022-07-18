@@ -91,7 +91,7 @@ a:hover:after{
   max-width: 500px;
   margin: 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .banner__text {
@@ -107,7 +107,7 @@ a:hover:after{
 
 .banner__text,
 .banner__close > span {
-  color: #00060f;
+  color: #ffffff;
 }
 .banner{
   flex: 1;
