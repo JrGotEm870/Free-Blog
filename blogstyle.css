@@ -118,6 +118,19 @@ a:hover:after{
   background-color: #ffffff;
   box-shadow: 0 10px 18px 3px #cfac5b;
 }
+.sub-text{
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.sub-heading{
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #cfac5b;
+}
 /* Media Queries */
 @media screen and (min-width: 540px){
   .navbar-nav a{
@@ -139,6 +152,17 @@ a:hover:after{
     margin-left: auto;
     margin-right: auto;
   }
+  .sub-heading{
+    margin-top: 1.4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-text{
+  margin-top: 1.4rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 768px){
   .navbar .container{
