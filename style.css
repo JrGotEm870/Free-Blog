@@ -314,6 +314,23 @@ a:hover:after{
   transition: all ease 0.3s;
   text-decoration: none;
 }
+.all-btn{
+  padding: 10px;
+  text-align: center;
+  background: #cfac5b;
+  color: #00060f;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  width: 130px;
+  margin: 20px auto 0;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.all-btn:hover{
+  color: #fff;
+  transition: all ease 0.3s;
+  }
 @media(max-width:1250px){
   .blog-box{
     width: 300px;
@@ -423,7 +440,7 @@ a:hover:after{
   border: 0;
   outline: none;
   cursor: pointer;
-  width; 150px;
+  width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
 }
