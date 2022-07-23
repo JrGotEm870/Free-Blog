@@ -354,7 +354,7 @@ a:hover:after{
 /*---End of Article---*/
 /*---About---*/
 #about{
-  width: 100%;
+  min-height: 100vh;
   padding: 78px 0px;
   background-color: #00060f;
 }
